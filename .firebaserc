@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "faster2-a69c8": {
+      "hosting": {
+        "faster2": [
+          "faster2-a69c8"
+        ]
+      }
+    }
+  }
+}
