@@ -11,6 +11,8 @@ import { HomeComponent } from './components/general/home/home.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { TicketComponent } from './components/tickets/ticket/ticket.component';
+import { FeedComponent } from './components/general/feed/feed.component';
+import { RestComponent } from './components/rests/rest/rest.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { TicketComponent } from './components/tickets/ticket/ticket.component';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    TicketComponent
+    TicketComponent,
+    FeedComponent,
+    RestComponent
   ],
   imports: [
     BrowserModule,

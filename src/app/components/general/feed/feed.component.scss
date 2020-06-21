@@ -1,0 +1,18 @@
+.card-rest {
+    width: 40vw;
+    height: 20vh;
+    border: 1px solid #ddd;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-rest:hover {
+    background: rgba(0, 0, 0, 0.3);
+}

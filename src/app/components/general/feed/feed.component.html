@@ -1,0 +1,11 @@
+<h2>Oferta de Restaurantes:</h2>
+
+<div [routerLink]="['/rest', rest.id]" *ngFor="let rest of restaurantes">
+    <div class="card-rest">
+        <h3>{{ rest.name }}</h3>
+        <span>{{ rest.cat }}</span>
+        <br>
+        <span>* {{ rest.stars }}</span>
+        <br>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+<h1>Menú disponible</h1>
+<hr>
+
+<div *ngFor="let platillo of menuActual">
+    <div class="card-platillo">
+        <h3>{{ platillo.name }}</h3>
+        $ {{ platillo.price }}.00
+    </div>
+</div>
